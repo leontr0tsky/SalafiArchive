@@ -5,73 +5,79 @@
 }
 
 body {
-  background-color: #f8f5ef;
-  color: #111;
-  font-family: "Cormorant Garamond", serif;
+  background-color: #000;
+  color: #fff;
+  font-family: "Playfair Display", serif;
   line-height: 1.8;
-  padding: 40px;
   max-width: 900px;
   margin: auto;
+  padding: 40px;
 }
 
+/* Header */
 header {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 h1 {
   font-size: 3rem;
-  font-weight: 400;
-  margin-bottom: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
 nav a {
   text-decoration: none;
-  color: #444;
-  margin-right: 20px;
-  font-size: 1.1rem;
+  color: #aaa;
+  margin-right: 18px;
+  font-size: 1rem;
 }
 
 nav a:hover {
-  color: black;
+  color: #fff;
 }
 
+/* Hero */
 .hero {
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 .hero h2 {
   font-size: 2.2rem;
-  font-weight: 400;
-  margin-bottom: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
 .hero p {
+  color: #bbb;
   max-width: 600px;
-  font-size: 1.2rem;
-  color: #555;
+  font-size: 1.1rem;
 }
 
+/* Sections */
 section {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 h3 {
-  font-size: 1.8rem;
-  font-weight: 400;
-  margin-bottom: 30px;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 25px;
 }
 
+/* Articles */
 article {
-  padding: 20px 0;
-  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  border-bottom: 1px solid #222;
 }
 
 article p {
-  font-size: 1.2rem;
+  color: #ddd;
+  font-size: 1.1rem;
 }
 
+/* Footer */
 footer {
-  margin-top: 100px;
-  color: #666;
-  font-size: 1rem;
+  margin-top: 90px;
+  color: #777;
+  font-size: 0.9rem;
 }
